@@ -7,7 +7,7 @@ function newItem() {
 
     if (inputValue === "") {
         // Checks if the value of inputValue is an empty string.
-        alert("You must write something!"); // Displays an alert box with the message "You must write something!" if inputValue is empty.
+        alert("You must write something!"); // Displays an alert box with the message "You must write something!" If nothing is written.
     } else {
         let $list = $("#list"); // Creates a new jQuery object for an element with an id of "list".
         $list.append($li); // Adds the $li element to the end of the $list element.
