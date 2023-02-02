@@ -1,7 +1,7 @@
 function newItem() {
     //jQuery
     //1. Adding a new item to the list of items:
-    let $li = $("<li>"); // Creates a new <li> element and assigns it to the variable $li.
+    let $li = $("<li></li>"); // Creates a new <li> element and assigns it to the variable $li.
     let inputValue = $("#input").val(); // Retrieves the value of an element with an id.
     $li.text(inputValue); // Sets the text content of the $li element to the value of inputValue.
 
